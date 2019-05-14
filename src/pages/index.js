@@ -8,18 +8,9 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Home"
-      keywords={[
-        `Scott Ollivier`,
-        `Product Management`,
-        `Product Leadership`,
-        `SaaS`,
-      ]}
+      title="Scott Ollivier's Site"
+      keywords={[`Scott Ollivier`, `Product Management`, `Product Leadership`]}
     />
-    <h1>Scott Ollivier</h1>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
   </Layout>
 )
 
