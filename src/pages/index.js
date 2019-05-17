@@ -3,14 +3,17 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
-import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO
-      title="Scott Ollivier's Site"
-      keywords={[`Scott Ollivier`, `Product Management`, `Product Leadership`]}
-    />
+    <section className="hero is-primary">
+      <div className="hero-body">
+        <div className="container">
+          <h1 className="title">Scott Ollivier</h1>
+          <h2 className="subtitle">Writings and Projects</h2>
+        </div>
+      </div>
+    </section>
   </Layout>
 )
 
